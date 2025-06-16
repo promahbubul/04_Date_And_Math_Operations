@@ -140,24 +140,9 @@
   // Output: 383
   ```
 
-  ### DateTime()->diff()
-
-  `DateTime()->modify()` modifies a DateTime object by adding or subtracting time.
-
-  ```php
-  $rahim = "2001/12/21";
-  $karim = "2000/12/03";
-  $d1 = new DateTime($rahim);
-  $d2 = new DateTime($karim);
-  $diff = $d1->diff($d2);
-  echo $diff->format("%a");
-
-  // Output: 383
-  ```
-
   ### DateTime()->modify()
 
-  `DateTime()->modify()` object
+  `DateTime()->modify()` modifies a DateTime object by adding or subtracting time.
 
   ```php
   $date = new dateTime();
